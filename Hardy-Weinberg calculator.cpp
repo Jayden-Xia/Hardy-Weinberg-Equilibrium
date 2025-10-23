@@ -1,16 +1,8 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <iostream>
 #include <cmath>
 using namespace std;
 void print_odds(float dominant, float recessive){
-    //Print the rest of the odds based off of dominant and recessive allele frequencies
+    //Print the rest of the odds based on dominant and recessive allele frequencies
     cout<<"Dominant allele frequency: "<<dominant<<endl;
     cout<<"Recessive allele frequency: "<<recessive<<endl;
     cout<<"Homozygous dominant percentage: "<<dominant*dominant<<endl;
